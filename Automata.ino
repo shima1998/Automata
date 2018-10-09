@@ -17,7 +17,7 @@ void loop() {
   int val = digitalRead(light);//サイト参照
   Serial.println(val);//サイト参照
 
-  if(val == 1){
+  if(val == 1){//光を浴びない→LED消灯 光を浴びる→LED点灯
     digitalWrite(led, HIGH);
   } else {
     digitalWrite(led, LOW);
