@@ -3,7 +3,7 @@
 //https://www.petitmonte.com/robot/howto_illuminance_sensor.html
 
 int light = 8;
-int led = 9;
+int led = 10;
 
 void setup() {
   // put your setup code here, to run once:
